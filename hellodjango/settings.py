@@ -66,7 +66,20 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+'''
+# on heroku deployment set this uncomment upper comment it
+DATABASES = {
+    'default': {
+        
+        'ENGINE':'ec2-54-204-43-139.compute-1.amazonaws.com',
+        'NAME': 'd88sv8ue8vurvr',
+        'USER': 'ghdfllgqliqfgm',
+        'PASSWORD': 'EvhK57qiwtr-AEsatJmYnOEIzT',
+        #'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+'''
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -86,6 +99,14 @@ USE_TZ = True
 
 #STATIC_URL = '/static/'
 
+'''
+To run on local need to comment below part 
+and uncomment above lines 
+such as
+===
+#STATIC_URL = '/static/'
+
+'''
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
