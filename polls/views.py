@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    conrlink = """<br/><a href="http://newdjangogtr.herokuapp.com/admin/"> admin url </a>"""
+    conrlink = "<br/><a href='http://newdjangogtr.herokuapp.com/admin/'> admin url </a>"
     return HttpResponse("Hello, world. You're at the polls index."+conrlink)
 
 def detail(request, poll_id):
