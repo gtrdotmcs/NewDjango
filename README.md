@@ -20,7 +20,8 @@ important command
 
 2:run djangocode : $python manage.py runserver (optional)ip:port
 
-3:git command required : 
+3:git command required : ---
+ 			
 			 i) $git status # view changes
 
                         ii) $git add path/to/file # add the file changes done
