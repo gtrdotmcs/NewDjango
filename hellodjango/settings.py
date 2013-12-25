@@ -55,7 +55,7 @@ WSGI_APPLICATION = 'hellodjango.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-#'''
+'''
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.postgresql_psycopg2',
@@ -79,7 +79,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-'''
+#'''
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -102,7 +102,7 @@ STATIC_URL = '/static/'
 '''
 To run on local need to comment below part
 '''
-'''
+#'''
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
@@ -122,4 +122,4 @@ STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-'''
+#'''
