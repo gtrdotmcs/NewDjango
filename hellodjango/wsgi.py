@@ -12,12 +12,12 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hellodjango.settings")
 '''
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
+
 '''
 '''
-To run on local machine just comment below line and un comment above two lines
+#To run on local machine just comment below line and un comment above two lines
 '''
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
 
 application = Cling(get_wsgi_application())
-
