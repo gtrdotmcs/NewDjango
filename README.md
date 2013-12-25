@@ -30,6 +30,10 @@ important command
 
                         iv) $git push origin master # push on to the git hub repo    
 
+4: push on heroku : $git push heroku master
+
+5: oprn it on default browser : $heroku open 
+
 ============================================
 git password store method
 ============================================
