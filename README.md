@@ -2,7 +2,7 @@ NewDjango
 =========
 my app on heroku
 now added on another machine
-
+auto store
 
 =======================================
 importand links to usefull to stat up
