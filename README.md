@@ -27,8 +27,8 @@ important command
 git password store method
 ============================================
 1: git config --global credential.helper store # it store password ask onlr once for first commit
-2: git config --global credential.helper cache #for some period of time
+2: git config --global credential.helper cache #for some period of time 15 min
 
-3: git config --global credential.helper 'cache --timeout=600' # for time interval
+3: git config --global credential.helper 'cache --timeout=600' # for time interval for seconds 600=10 mins
 
 4: t config remote.origin.url https://username:password@github.com/gtrdotmcs/NewDjango.git
