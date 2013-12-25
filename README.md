@@ -22,13 +22,13 @@ important command
 
 3:git command required : ---
  			
-			 i) $git status # view changes
+                         i) $git status # view changes
 
                         ii) $git add path/to/file # add the file changes done
 
                        iii) $git commit -m "message" # add comit messge and now ready
 
-			iv) $git push origin master # push on to the git hub repo    
+                        iv) $git push origin master # push on to the git hub repo    
 
 ============================================
 git password store method
