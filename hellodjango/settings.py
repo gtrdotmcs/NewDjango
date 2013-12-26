@@ -66,7 +66,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-'''
+#'''
 # on heroku deployment set this uncomment upper comment it
 DATABASES = {
     'default': {
