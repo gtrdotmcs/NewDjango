@@ -13,6 +13,8 @@ importand links to usefull to stat up
 
 3: startup Django : https://docs.djangoproject.com/en/1.6/intro/tutorial01/ 
 
+4: Eclicps setup : http://techs.studyhorror.com/how-develop-django-project-pydev-eclipse-i-12
+
 ========================================
 important command 
 ========================================
