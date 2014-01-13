@@ -18,9 +18,11 @@ important command
 ========================================
 1:for point virtual enviroment : $source venv/bin/activate
 
-2:run djangocode : $python manage.py runserver (optional)ip:port
+2:For satisfy system requiremnt: : $pip install -r requirements.txt
 
-3:git command required : ---
+3:run djangocode : $python manage.py runserver (optional)ip:port
+
+4:git command required : ---
  			
                          i) $git status # view changes
 
@@ -30,9 +32,9 @@ important command
 
                         iv) $git push origin master # push on to the git hub repo    
 
-4: push on heroku : $git push heroku master
+5: push on heroku : $git push heroku master
 
-5: oprn it on default browser : $heroku open 
+6: oprn it on default browser : $heroku open 
 
 ============================================
 git password store method
