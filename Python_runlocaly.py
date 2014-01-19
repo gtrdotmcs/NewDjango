@@ -39,10 +39,10 @@ def changegitConfigfile_wsgi():
 if __name__ == "__main__":
     
     if len(sys.argv) == 2:
-        changegitConfigfile_setting()
-        changegitConfigfile_wsgi() 
         proc = Popen(['bash',sys.argv[1]], stdin=PIPE)
         proc.communicate('Y')
+        changegitConfigfile_setting()
+        changegitConfigfile_wsgi()
     else:
         print "This need to be in Clone dir and Bash scripts are not provided"
         print "python Changedotgitconfig.py \"gitpull script\"  "     
