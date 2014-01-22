@@ -39,8 +39,8 @@ def changegitConfigfile_wsgi():
 if __name__ == "__main__":
     
     if len(sys.argv) == 2:
-        proc = Popen(['bash',sys.argv[1]], stdin=PIPE)
-        proc.communicate('Y')
+        #proc = Popen(['bash',sys.argv[1]], stdin=PIPE)
+        #proc.communicate('Y')
         changegitConfigfile_setting()
         changegitConfigfile_wsgi()
     else:

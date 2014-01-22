@@ -55,7 +55,7 @@ WSGI_APPLICATION = 'hellodjango.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-''' RunLocaly Comment and Uncomment Run Heroku(Do not change this comment line)
+#''' RunLocaly Comment and Uncomment Run Heroku(Do not change this comment line)
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.postgresql_psycopg2',
@@ -102,7 +102,7 @@ STATIC_URL = '/static/'
 '''
 To run on local need to comment below part
 '''
-#'''
+''' Run setting for heroku comment it and localy uncomment it
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
