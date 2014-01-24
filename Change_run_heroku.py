@@ -15,7 +15,7 @@ def changegitConfigfile_setting():
     line = file_reads.read()
     file_reads.close()
     if line.find("#''' RunLocaly Comment and Uncomment Run Heroku(Do not change this comment line)") != -1:
-        line2 = line.replace("#''' RunLocaly Comment and ", "''' RunLocaly Comment and ")
+        line2 = line.replace("#''' RunLocaly Comment and", "''' RunLocaly Comment and")
     if line2.find("''' Run setting for heroku comment it and localy uncomment it") != -1:
         line2 = line2.replace("''' Run setting for heroku comment","#''' Run setting for heroku comment")    
     file_write = open("hellodjango/settings.py","w")
