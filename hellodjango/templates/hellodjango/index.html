@@ -11,9 +11,9 @@
         <![endif]-->
 
         		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<title>helloweb</title>
-		<meta name="description" content="The is Just basic web site setup">
-		<meta name="keywords" content="helloweb,web,hello">
+		<title>NewDjangogtr</title>
+		<meta name="description" content="The is Just basic web site setup ,NewDjangogtr">
+		<meta name="keywords" content="NewDjangogtr,web,hello">
 		<meta name="fragment" content="!">
 		<style type="text/css" id="styleCSS">
 /*
@@ -482,8 +482,8 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: underline;}
                                     <div class="yola_innermost_heading_wrap">
                                         <h1>
                                             <a id="sys_heading" class="yola_hide_logo" href="./">
-                                                <img class="yola_site_logo" src="" alt="helloweb">
-                                                <span>helloweb</span>
+                                                <img class="yola_site_logo" src="" alt="Newdjangogtr">
+                                                <span>Newdjangogtr</span>
                                             </a>
                                         </h1>
                                         <h2 class="yola_site_tagline" style="display:none"><span></span></h2>
@@ -505,11 +505,21 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: underline;}
             <td id="sys_region_2" style="margin:0px; padding:5px; vertical-align:top; line-height:normal; min-width:100px" class="zone_left" width="30%">&nbsp;</td>
             <td><div style="font-size:0px; width:5px"></div></td>
             <td id="sys_region_1" style="margin:0px; padding:5px; vertical-align:top; line-height:normal; min-width:100px" class="zone_right" width="70%"><div id="I15" style="display:block;clear: both;margin:0 0 0 0;" class="Text_Default">
-    <div id="I15_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><h2>Helloweb welcomes you to our community!</h2></div>
+    <div id="I15_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><h2>Newdjangogtr welcomes you to our community!</h2></div>
 
 
-</div><div id="I16" style="display:block;clear: both;margin:0 0 0 0;" class="Layout1_Default"><table style="width:100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td id="Left_I16" style="text-align:left; vertical-align:top; width:50%;"><div id="I18" style="display:block;clear: both;text-align:left;margin:0 0 0 0;" class="Image_Default"><img id="I18_img" src="//s3.yolacdn.net/ide/images/template/religion/image.jpg" style="width:; border:none;"></div></td><td id="Right_I16" style="vertical-align:top; width:50%;"><div id="I17" style="display:block;clear: both;margin:0 0 0 0;" class="Text_Default">
-    <div id="I17_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><h3>About Us</h3><p>All are welcome at our non-denominational house of worship.</p><p>We hold weekly services and weeknight meetings.  You are also invited to participate in our outreach activities to give aid to those members of our community in need.  Please check our calendar if you’re interested in attending weekly services or community activities.</p><p>Whether you're new to the neighborhood or new to worship, we welcome you with open arms.</p><p><a href="contact-us.php">Learn more about us.</a></p></div>
+</div><div id="I16" style="display:block;clear: both;margin:0 0 0 0;" class="Layout1_Default"><table style="width:100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td id="Left_I16" style="text-align:left; vertical-align:top; width:50%;"><div id="I18" style="display:block;clear: both;text-align:left;margin:0 0 0 0;" class="Image_Default"><img id="I18_img" src="//lh5.ggpht.com/PARTls6juyP9yS45tgQ11Bu1Dg2BsXZ6_G-YkasiTgNQ4pfy5RMDHuvUm1dWP_aq6ug%3Dw300" style="width:; border:none;"></div></td><td id="Right_I16" style="vertical-align:top; width:50%;"><div id="I17" style="display:block;clear: both;margin:0 0 0 0;" class="Text_Default">
+    <div id="I17_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><h3>About Us</h3><p>All are welcome at our non-denominational house of worship.</p><p>We hold weekly services and weeknight meetings.  You are also invited to participate in our outreach activities to give aid to those members of our community in need.  Please check our calendar if you’re interested in attending weekly services or community activities.</p><p>Whether you're new to the neighborhood or new to worship, we welcome you with open arms.</p><p><a href="contact-us.php">Learn more about us.</a>
+    {% if latest_poll_list %}
+    <ul>
+    {% for poll in latest_poll_list %}
+    	<li><a href="{% url 'polls:detail' poll.id %}">{{ poll.question }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+    </p></div>
 
 
 </div></td></tr></tbody></table></div><div id="I19" style="display:block;clear: both;margin:20px 0 20px 0;" class="Horizontal_Line_Default">    <div style="border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#cccccc;font-size:0;padding:0;margin:0;height:0;line-height:0;"></div>
