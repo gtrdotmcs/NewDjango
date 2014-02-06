@@ -15,6 +15,8 @@ importand links to usefull to stat up
 
 4: Eclicps setup : http://techs.studyhorror.com/how-develop-django-project-pydev-eclipse-i-12
 
+5: Mysql and other setup :http://www.realpython.com/blog/python/migrating-your-django-project-to-heroku/#.UvN4Xd_FtTM
+
 ========================================
 important command 
 ========================================
