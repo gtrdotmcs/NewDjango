@@ -17,6 +17,8 @@ importand links to usefull to stat up
 
 5: Mysql and other setup :http://www.realpython.com/blog/python/migrating-your-django-project-to-heroku/#.UvN4Xd_FtTM
 
+6: upload images django part: https://devcenter.heroku.com/articles/cloudinary
+
 ========================================
 important command 
 ========================================
