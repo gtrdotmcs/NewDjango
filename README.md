@@ -12,7 +12,7 @@ importand links to usefull to stat up
 2: Django full set up : http://www.deploydjango.com/heroku/index.html
 
 3: startup Django : https://docs.djangoproject.com/en/1.6/intro/tutorial01/ 
-
+    Helpfull : http://mattyjwilliams.blogspot.in/2011/11/heroku-and-ubuntu.html  #if not able to deply public key is not authenticating but still not working solution
 4: Eclicps setup : http://techs.studyhorror.com/how-develop-django-project-pydev-eclipse-i-12
 
 5: Mysql and other setup :http://www.realpython.com/blog/python/migrating-your-django-project-to-heroku/#.UvN4Xd_FtTM
